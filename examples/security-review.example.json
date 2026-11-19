@@ -1,0 +1,16 @@
+{
+  "tool": "prepare_support_request",
+  "data": "fictional local draft",
+  "scope": "educational demo",
+  "reviewed": "2026-11-19",
+  "controls": {
+    "inputValidation": "required",
+    "confirmation": "human review of exact local draft",
+    "cancellation": "execution AbortSignal and timeout",
+    "serverAuthorization": "not applicable to local fixture; required for real sending",
+    "idempotency": "not demonstrated by this local draft",
+    "promptInjection": "caller behavior must be tested independently"
+  },
+  "decision": "not a production security approval",
+  "evidence": []
+}
